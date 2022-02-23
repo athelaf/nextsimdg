@@ -1,0 +1,10 @@
+<map id="Nextsim::StructureFactory::generate" name="Nextsim::StructureFactory::generate">
+<area shape="rect" id="node1" title="Returns a shared_ptr to a instance of IStructure which matches the passed structure name." alt="" coords="5,125,177,166"/>
+<area shape="rect" id="node2" href="$class_module_loader.html#a502bee319766ad5e46370a472c2ce114" title="Returns a reference to a static instance of the implementing class." alt="" coords="228,5,445,32"/>
+<area shape="rect" id="node3" href="$class_module_loader.html#a905067fc1b7b283b6abfce30791790a1" title="Returns a newly created instance of the implementing class." alt="" coords="247,56,426,83"/>
+<area shape="rect" id="node4" href="$class_module_loader.html#a5655e5840bdda31cd7f8f4f63864de8c" title="Returns the default loader instance." alt="" coords="253,107,421,133"/>
+<area shape="rect" id="node6" href="$class_module_loader.html#a65d23011103a161e995145d68d96b273" title=" " alt="" coords="225,157,448,184"/>
+<area shape="rect" id="node7" href="$class_module_loader.html#ab07102737844ef6ec1134f35c67803ed" title="Sets the implementation class of a module." alt="" coords="228,208,445,235"/>
+<area shape="rect" id="node8" href="$class_nextsim_1_1_i_structure.html#ad16bcf5c9da4149176ae1795a2cb1519" title="Returns the structure name that this class will process." alt="" coords="270,259,403,301"/>
+<area shape="rect" id="node5" href="$class_module_loader.html#a5be55a3f555d80b0cdbd50d710f4088b" title="Initializes the loader with no modules loaded." alt="" coords="496,107,623,133"/>
+</map>

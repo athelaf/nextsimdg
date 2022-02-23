@@ -1,0 +1,13 @@
+<map id="Nextsim::StructureFactory::generateFromFile" name="Nextsim::StructureFactory::generateFromFile">
+<area shape="rect" id="node1" title="Returns a shared_ptr to a instance of IStructure which implements the structure named in the passed N..." alt="" coords="5,190,177,231"/>
+<area shape="rect" id="node2" href="$class_nextsim_1_1_structure_factory.html#aaf806e02e1f3df7aba00ed4444d8158c" title="Returns a shared_ptr to a instance of IStructure which matches the passed structure name." alt="" coords="225,125,397,166"/>
+<area shape="rect" id="node10" href="$class_nextsim_1_1_i_structure.html#ad6722122645c3189edd359689af6d0cf" title="Returns the name of the metadata node." alt="" coords="237,190,385,231"/>
+<area shape="rect" id="node11" href="$class_nextsim_1_1_i_structure.html#a2cbb7379198e83e5e50d125b4a366a39" title="The name of the node holding the name of the structure type processed by this class." alt="" coords="245,255,378,297"/>
+<area shape="rect" id="node3" href="$class_module_loader.html#a502bee319766ad5e46370a472c2ce114" title="Returns a reference to a static instance of the implementing class." alt="" coords="448,5,665,32"/>
+<area shape="rect" id="node4" href="$class_module_loader.html#a905067fc1b7b283b6abfce30791790a1" title="Returns a newly created instance of the implementing class." alt="" coords="467,56,646,83"/>
+<area shape="rect" id="node5" href="$class_module_loader.html#a5655e5840bdda31cd7f8f4f63864de8c" title="Returns the default loader instance." alt="" coords="473,107,641,133"/>
+<area shape="rect" id="node7" href="$class_module_loader.html#a65d23011103a161e995145d68d96b273" title=" " alt="" coords="445,157,668,184"/>
+<area shape="rect" id="node8" href="$class_module_loader.html#ab07102737844ef6ec1134f35c67803ed" title="Sets the implementation class of a module." alt="" coords="448,208,665,235"/>
+<area shape="rect" id="node9" href="$class_nextsim_1_1_i_structure.html#ad16bcf5c9da4149176ae1795a2cb1519" title="Returns the structure name that this class will process." alt="" coords="490,259,623,301"/>
+<area shape="rect" id="node6" href="$class_module_loader.html#a5be55a3f555d80b0cdbd50d710f4088b" title="Initializes the loader with no modules loaded." alt="" coords="716,107,843,133"/>
+</map>

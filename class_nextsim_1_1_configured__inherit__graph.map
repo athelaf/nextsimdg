@@ -1,0 +1,14 @@
+<map id="Nextsim::Configured&lt; C &gt;" name="Nextsim::Configured&lt; C &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="321,147,491,385"/>
+<area shape="rect" id="node3" href="$class_nextsim_1_1_configured.html" title=" " alt="" coords="5,448,175,701"/>
+<area shape="rect" id="node5" href="$class_nextsim_1_1_configured.html" title=" " alt="" coords="199,448,368,701"/>
+<area shape="rect" id="node7" href="$class_nextsim_1_1_configured.html" title=" " alt="" coords="325,725,495,979"/>
+<area shape="rect" id="node9" href="$class_nextsim_1_1_configured.html" title=" " alt="" coords="444,448,613,701"/>
+<area shape="rect" id="node11" href="$class_nextsim_1_1_configured.html" title=" " alt="" coords="637,448,807,701"/>
+<area shape="rect" id="node2" href="$class_nextsim_1_1_configured_base.html" title="A base class necessary for the tryConfigure() functions to work." alt="" coords="323,5,489,97"/>
+<area shape="rect" id="node4" href="$class_config2.html" title=" " alt="" coords="43,1135,137,1256"/>
+<area shape="rect" id="node6" href="$class_config3.html" title=" " alt="" coords="234,1135,333,1256"/>
+<area shape="rect" id="node8" href="$class_nextsim_1_1_element_data.html" title="The class which holds all the data for a single element of the model." alt="" coords="357,1437,508,1661"/>
+<area shape="rect" id="node10" href="$class_nextsim_1_1_model.html" title="A class that encapsulates the whole of the model." alt="" coords="459,1120,599,1271"/>
+<area shape="rect" id="node12" href="$class_nextsim_1_1_prognostic_data.html" title="A class holding all of the data for an element that is carried from one timestep to another." alt="" coords="627,1003,807,1388"/>
+</map>

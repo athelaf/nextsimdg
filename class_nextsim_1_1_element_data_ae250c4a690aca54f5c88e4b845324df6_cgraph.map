@@ -1,0 +1,5 @@
+<map id="Nextsim::ElementData::ElementData" name="Nextsim::ElementData::ElementData">
+<area shape="rect" id="node1" title="Copy constructor." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$class_module_loader.html#a5655e5840bdda31cd7f8f4f63864de8c" title="Returns the default loader instance." alt="" coords="204,13,372,39"/>
+<area shape="rect" id="node3" href="$class_module_loader.html#a5be55a3f555d80b0cdbd50d710f4088b" title="Initializes the loader with no modules loaded." alt="" coords="420,13,547,39"/>
+</map>

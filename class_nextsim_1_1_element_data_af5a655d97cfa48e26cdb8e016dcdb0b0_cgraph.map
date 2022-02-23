@@ -1,0 +1,7 @@
+<map id="Nextsim::ElementData::configure" name="Nextsim::ElementData::configure">
+<area shape="rect" id="node1" title="Configures the PrognosticData and physics implementation aspects of the object." alt="" coords="5,35,156,77"/>
+<area shape="rect" id="node2" href="$class_module_loader.html#a5655e5840bdda31cd7f8f4f63864de8c" title="Returns the default loader instance." alt="" coords="204,5,372,32"/>
+<area shape="rect" id="node4" href="$_configured_8hpp.html#addce5f96c514296ee85b739bbe10fa26" title="Template function for conditionally configuring references." alt="" coords="216,80,360,107"/>
+<area shape="rect" id="node3" href="$class_module_loader.html#a5be55a3f555d80b0cdbd50d710f4088b" title="Initializes the loader with no modules loaded." alt="" coords="425,5,552,32"/>
+<area shape="rect" id="node5" href="$class_nextsim_1_1_configured.html#a1976b952b6533bfd8624147f847ac042" title="Template function for conditionally configuring references." alt="" coords="420,73,557,114"/>
+</map>

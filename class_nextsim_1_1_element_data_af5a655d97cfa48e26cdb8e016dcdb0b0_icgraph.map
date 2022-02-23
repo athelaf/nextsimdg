@@ -1,0 +1,4 @@
+<map id="Nextsim::ElementData::configure" name="Nextsim::ElementData::configure">
+<area shape="rect" id="node1" title="Configures the PrognosticData and physics implementation aspects of the object." alt="" coords="200,5,351,47"/>
+<area shape="rect" id="node2" href="$class_nextsim_1_1_dev_grid.html#a49ba553cb6982e8ad2d22d62ed4d5ad0" title="Dumps the data to a file path." alt="" coords="5,13,152,39"/>
+</map>

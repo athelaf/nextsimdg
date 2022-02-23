@@ -1,0 +1,5 @@
+<map id="Nextsim::StructureFactory::generate" name="Nextsim::StructureFactory::generate">
+<area shape="rect" id="node1" title="Returns a shared_ptr to a instance of IStructure which matches the passed structure name." alt="" coords="443,5,615,47"/>
+<area shape="rect" id="node2" href="$class_nextsim_1_1_structure_factory.html#abcf5ef075dbaa48cd4ed4a8eb7c2013e" title="Returns a shared_ptr to a instance of IStructure which implements the structure named in the passed N..." alt="" coords="223,5,395,47"/>
+<area shape="rect" id="node3" href="$class_nextsim_1_1_model.html#a0f5b5a4d2b53a04bbdc7ce3f7d0bef5d" title="The configuration function." alt="" coords="5,13,175,39"/>
+</map>

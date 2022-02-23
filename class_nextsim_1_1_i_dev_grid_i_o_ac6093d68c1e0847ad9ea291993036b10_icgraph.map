@@ -1,0 +1,4 @@
+<map id="Nextsim::IDevGridIO::init" name="Nextsim::IDevGridIO::init">
+<area shape="rect" id="node1" title="Reads data from the file location into the vector of data elements." alt="" coords="200,5,341,47"/>
+<area shape="rect" id="node2" href="$class_nextsim_1_1_dev_grid.html#a49ba553cb6982e8ad2d22d62ed4d5ad0" title="Dumps the data to a file path." alt="" coords="5,13,152,39"/>
+</map>

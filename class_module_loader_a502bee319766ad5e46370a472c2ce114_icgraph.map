@@ -1,0 +1,7 @@
+<map id="ModuleLoader::getImplementation" name="ModuleLoader::getImplementation">
+<area shape="rect" id="node1" title="Returns a reference to a static instance of the implementing class." alt="" coords="663,46,880,73"/>
+<area shape="rect" id="node2" href="$class_nextsim_1_1_prognostic_data.html#ac86335c408d04ad2cfb8e4b5362d0d58" title="The configuration function." alt="" coords="446,5,611,47"/>
+<area shape="rect" id="node3" href="$class_nextsim_1_1_structure_factory.html#aaf806e02e1f3df7aba00ed4444d8158c" title="Returns a shared_ptr to a instance of IStructure which matches the passed structure name." alt="" coords="443,71,615,112"/>
+<area shape="rect" id="node4" href="$class_nextsim_1_1_structure_factory.html#abcf5ef075dbaa48cd4ed4a8eb7c2013e" title="Returns a shared_ptr to a instance of IStructure which implements the structure named in the passed N..." alt="" coords="223,71,395,112"/>
+<area shape="rect" id="node5" href="$class_nextsim_1_1_model.html#a0f5b5a4d2b53a04bbdc7ce3f7d0bef5d" title="The configuration function." alt="" coords="5,78,175,105"/>
+</map>
