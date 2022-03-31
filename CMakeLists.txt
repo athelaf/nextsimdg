@@ -11,13 +11,18 @@ if ("${CMAKE_HOST_SYSTEM_NAME}" STREQUAL "Darwin")
 else()
     set(NSDG_NetCDF_Library "netcdf_c++4")
 endif()
+
+# Regarding Boost.Log, if our application consists of more
+# than one modules that use it, we must link to the shared
+# version. If we have a single executable or a single module
+# that works, we may use the static version.
+# By default, it is assumed that the library is built in
+# static mode. Use the following definition to indicate that
+# the code will be linked against dynamically loaded boost
+# libraries.
+ADD_DEFINITIONS(-DBOOST_ALL_DYN_LINK)
 find_package(Boost COMPONENTS program_options log REQUIRED)
 find_package(Catch2 REQUIRED)
-
-# To add netCDF to a target:
-# target_include_directories(target PUBLIC ${netCDF_INCLUDE_DIR})
-# target_link_directories(target PUBLIC ${netCDF_LIB_DIR})
-# target_link_libraries(target LINK_PUBLIC "${NSDG_NetCDF_Library}")
 
 # Set the location of the ipp files used by ModuleLoader for the main build
 set(ModuleLoaderIppTargetDirectory
@@ -61,4 +66,4 @@ target_include_directories(nextsim PRIVATE
     "${netCDF_INCLUDE_DIR}"
     )
 target_link_directories(nextsim PUBLIC "${netCDF_LIB_DIR}")
-target_link_libraries(nextsim LINK_PUBLIC Boost::program_options "${NSDG_NetCDF_Library}")
+target_link_libraries(nextsim LINK_PUBLIC Boost::program_options Boost::log "${NSDG_NetCDF_Library}")
