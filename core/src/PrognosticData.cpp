@@ -6,7 +6,7 @@
 
 #include "include/PrognosticData.hpp"
 #include "include/IFreezingPoint.hpp"
-#include "include/ModuleLoader.hpp"
+#include "include/Module.hpp"
 namespace Nextsim {
 
 double PrognosticData::m_dt = 0;
@@ -37,6 +37,8 @@ PrognosticData::PrognosticData(const PrognosticGenerator& up)
     , m_sss(up.seaSurfaceSalinity())
 {
     m_tice = up.updatedIceTemperatures();
+
+    configure();
 }
 
 PrognosticData& PrognosticData::operator=(const PrognosticGenerator& up)
@@ -50,13 +52,14 @@ PrognosticData& PrognosticData::operator=(const PrognosticGenerator& up)
     m_sst = up.seaSurfaceTemperature();
     m_sss = up.seaSurfaceSalinity();
 
+    configure();
+
     return *this;
 }
 
 void PrognosticData::configure()
 {
-    ModuleLoader& loader = ModuleLoader::getLoader();
-    m_freezer = &loader.getImplementation<IFreezingPoint>();
+    m_freezer = &Module::getImplementation<IFreezingPoint>();
     tryConfigure(m_freezer);
 }
 

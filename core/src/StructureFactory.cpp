@@ -6,8 +6,14 @@
  */
 
 #include "include/StructureFactory.hpp"
+
+#include "include/IStructureModule.hpp"
+
 #include "include/DevGrid.hpp"
 #include "include/DevGridIO.hpp"
+
+#include "include/RectGridIO.hpp"
+#include "include/RectangularGrid.hpp"
 
 #include <ncFile.h>
 #include <ncGroup.h>
@@ -19,18 +25,21 @@ namespace Nextsim {
 
 std::shared_ptr<IStructure> StructureFactory::generate(const std::string& structureName)
 {
-    ModuleLoader& loader = ModuleLoader::getLoader();
     std::string iStruct = "Nextsim::IStructure";
     std::shared_ptr<IStructure> shst;
-    for (auto struc : loader.listImplementations(iStruct)) {
-        loader.setImplementation(iStruct, struc);
-        if (loader.getImplementation<IStructure>().structureType() == structureName) {
-            shst = std::move(loader.getInstance<IStructure>());
+    for (auto struc : Module::IStructureModule::listImplementations()) {
+        Module::setImplementation<IStructure>(struc);
+        if (Module::getImplementation<IStructure>().structureType() == structureName) {
+            shst = std::move(Module::getInstance<IStructure>());
 
             // TODO There must be a better way
             if (shst->structureTypeCheck(DevGrid::structureName)) {
                 std::shared_ptr<DevGrid> shdg = std::dynamic_pointer_cast<DevGrid>(shst);
                 shdg->setIO(new DevGridIO(*shdg));
+            } else if (shst->structureTypeCheck(RectangularGrid::structureName)) {
+                std::shared_ptr<RectangularGrid> shrg
+                    = std::dynamic_pointer_cast<RectangularGrid>(shst);
+                shrg->setIO(new RectGridIO(*shrg));
             }
 
             return shst;

@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
-project(framework_dg)
+project(nextsim_dg)
 
 set (NETCDF_CXX "YES")
 find_package(netCDF REQUIRED)
@@ -11,7 +11,7 @@ if ("${CMAKE_HOST_SYSTEM_NAME}" STREQUAL "Darwin")
 else()
     set(NSDG_NetCDF_Library "netcdf_c++4")
 endif()
-find_package(Boost COMPONENTS program_options REQUIRED)
+find_package(Boost COMPONENTS program_options log REQUIRED)
 find_package(Catch2 REQUIRED)
 
 # To add netCDF to a target:
@@ -62,6 +62,3 @@ target_include_directories(nextsim PRIVATE
     )
 target_link_directories(nextsim PUBLIC "${netCDF_LIB_DIR}")
 target_link_libraries(nextsim LINK_PUBLIC Boost::program_options "${NSDG_NetCDF_Library}")
-
-#The parse_modules target is inherited from src
-add_dependencies(nextsim parse_modules)
